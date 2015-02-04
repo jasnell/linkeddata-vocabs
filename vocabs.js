@@ -21,3 +21,4 @@ exports.rdfs = require('./rdfs');
 exports.xsd = require('./xsd');
 exports.interval = require('./interval');
 exports.social = require('./social');
+exports.schema = require('./schema');
