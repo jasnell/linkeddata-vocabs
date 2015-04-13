@@ -14,9 +14,11 @@
  * limitations under the License.
  */
 require('./vocabulary')(
-  exports, 
-  'http://ns.jasnell.me/social#', 's', 
-  [ 
+  exports,
+  'http://ns.jasnell.me/social#', 's',
+  [
+'Connection',
+'a', 'b', 'relationship',
 'Population',
 'Everyone',
 'Public',
@@ -37,4 +39,3 @@ require('./vocabulary')(
 'confidence',
   ]
 );
-
