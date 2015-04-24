@@ -85,7 +85,7 @@ require('./vocabulary')(
     'Travel',
     'Complete',
 
-    'a','b','relationsip',
+    'a','b','relationship',
     'actor',
     'attributedTo',
     'attachment',

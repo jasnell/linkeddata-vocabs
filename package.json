@@ -1,6 +1,6 @@
 {
   "name": "linkeddata-vocabs",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "description": "Linked Data Vocabulary Definitions",
   "main": "./vocabs.js",
   "scripts": {
