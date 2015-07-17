@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 require('./vocabulary')(
-  exports, 
-  'http://ns.jasnell.me/interval#', 'i', 
-  [ 
+  exports,
+  'http://ns.jasnell.me/interval#', 'i',
+  [
     'lower', 'upper', 'step',
     'Interval', 'OpenInterval', 'ClosedInterval',
     'OpenClosedInterval', 'ClosedOpenInterval',
@@ -28,7 +28,9 @@ require('./vocabulary')(
     'NonNegativeFloats', 'NegativeFloats',
     'PositiveDoubles', 'NonNegativeDoubles',
     'NegativeDoubles', 'PositiveDecimals',
-    'NonNegativeDecimals', 'NegativeDecimals'
+    'NonNegativeDecimals', 'NegativeDecimals',
+    'indexRange',
+    'publishedRange',
+    'startTimeRange'
   ]
 );
-
