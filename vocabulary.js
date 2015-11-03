@@ -17,7 +17,7 @@
 
 function define(root, name, value) {
   Object.defineProperty(root, name, {
-    value: value, 
+    value: value,
     enumerable: true,
     configurable: false
   });
