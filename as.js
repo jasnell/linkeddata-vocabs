@@ -32,7 +32,6 @@ require('./vocabulary')(
     'CollectionPage',
     'OrderedCollectionPage',
     'Relationship',
-    'Content',
     'Create',
     'Delete',
     'Dislike',
