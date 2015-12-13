@@ -1,0 +1,16 @@
+{
+  "name": "vocabs-schema",
+  "version": "0.11.1",
+  "description": "Schema Vocabulary Terms",
+  "main": "./schema.js",
+  "license": "Apache-2.0",
+  "author": "James M Snell <jasnell@gmail.com>",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jasnell/linkeddata-vocabs"
+  },
+  "dependencies": {
+    "vocabs": ">=0.11.1"
+  }
+}

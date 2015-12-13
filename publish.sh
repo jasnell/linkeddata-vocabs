@@ -1,0 +1,11 @@
+npm publish base
+npm publish as
+npm publish asx
+npm publish interval
+npm publish owl
+npm publish rdf
+npm publish rdfs
+npm publish schema
+npm publish social
+npm publish xsd
+npm publish vocabs

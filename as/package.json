@@ -1,0 +1,17 @@
+{
+  "name": "vocabs-as",
+  "version": "0.11.1",
+  "description": "Activity Streams 2.0 Vocabulary Terms",
+  "main": "./as.js",
+  "license": "Apache-2.0",
+  "author": "James M Snell <jasnell@gmail.com>",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jasnell/linkeddata-vocabs"
+  },
+  "dependencies": {
+    "vocabs": ">=0.11.1",
+    "activitystreams-context": ">=0.10.0"
+  }
+}

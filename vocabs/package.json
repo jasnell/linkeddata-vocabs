@@ -1,0 +1,24 @@
+{
+  "name": "linkeddata-vocabs",
+  "version": "0.11.1",
+  "description": "Linked Data Vocabulary Definitions",
+  "main": "./vocabs.js",
+  "scripts": {},
+  "license": "Apache-2.0",
+  "author": "James M Snell <jasnell@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jasnell/linkeddata-vocabs"
+  },
+  "dependencies": {
+    "vocabs-as": ">=0.11.1",
+    "vocabs-asx": ">=0.11.1",
+    "vocabs-interval": ">=0.11.1",
+    "vocabs-owl": ">=0.11.1",
+    "vocabs-rdf": ">=0.11.1",
+    "vocabs-rdfs": ">=0.11.1",
+    "vocabs-schema": ">=0.11.1",
+    "vocabs-social": ">=0.11.1",
+    "vocabs-xsd": ">=0.11.1"
+  }
+}
