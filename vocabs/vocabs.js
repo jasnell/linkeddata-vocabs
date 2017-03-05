@@ -9,5 +9,6 @@ module.exports = {
   get xsd() { return require('vocabs-xsd'); },
   get interval() { return require('vocabs-interval'); },
   get social() { return require('vocabs-social'); },
-  get schema() { return require('vocabs-schema'); }
+  get schema() { return require('vocabs-schema'); },
+  get ldp() { return require('vocabs-ldp'); }
 };
