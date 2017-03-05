@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "vocabs-as": ">=2.0.0",
-    "vocabs-ldp": ">=0.0.1",
+    "vocabs-ldp": ">=0.1.0",
     "vocabs-asx": ">=0.11.1",
     "vocabs-interval": ">=0.11.1",
     "vocabs-owl": ">=0.11.1",
