@@ -1,11 +1,12 @@
 'use strict';
 
 const context = require('activitystreams-context');
-const ignore = ['@vocab', 'xsd', 'as', 'id', 'type', 'inbox'];
+const ignore = new Set(['@vocab', 'xsd', 'as', 'id', 'type', 'inbox']);
+
 const terms = {
   *[Symbol.iterator]() {
     for (let term of Object.keys(context['@context']))
-      if (ignore.indexOf(term) < 0)
+      if (!ignore.has(term))
         yield term;
   }
 };

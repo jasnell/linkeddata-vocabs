@@ -1,16 +1,19 @@
 'use strict';
 
-function define(root, name, value) {
-  Object.defineProperty(root, name, {
-    value: value,
+function define(value) {
+  return {
+    value,
     enumerable: true,
     configurable: false
-  });
+  };
 };
 
 module.exports = function (exports, ns, prefix, terms) {
-  define(exports, 'ns', ns);
-  define(exports, 'prefix', prefix);
+  const props = {
+    ns: define(ns),
+    prefix: define(prefix),
+  };
   for (let term of terms)
-    define(exports, term, ns + term);
+    props[term] = define(ns + term);
+  Object.defineProperties(exports, props);
 };
